@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style (2).css">
+    <link rel="icon" href="flowers.png" type="x-icon">
+    <title>Flowers</title>
+</head>
+<body>
+    <div class="greetings">
+    <!-- silahkan menambah kata sesuai keinginan dengan <span>text...</span -->
+        <span>A</span>
+        <span>P</span>
+        <span>A</span>
+        <span>A</span>
+        <span>N</span>
+        <span>T</span>
+        <span>U</span>
+        <span>H</span>
+    </div>
+    <div class="description">
+        <span>Marsha Ayu Yudita This Is For You ❤️</span>
+    </div>
+    <div class="description">
+        <span>Singkat Saja</span>
+    </div>
+    <div class="button">
+        <button >
+            <a href="flower.html" id="playButton">Klik disini</a>
+        </button>
+        
+    </div>
+    <script>
+        document.getElementById("playButton").addEventListener("click", function () {
+          // Set flag ke localStorage untuk menandakan bahwa tombol telah diklik
+          localStorage.setItem("playMusic", "true");
+          // Redirect ke halaman kedua
+          window.location.href = "flower.html";
+        });
+      </script>
+</body>
+</html>
